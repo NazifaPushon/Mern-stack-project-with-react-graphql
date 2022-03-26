@@ -1,6 +1,6 @@
-const { gql } = require("apollo-server");
+const { gql } = require('apollo-server');
 
-const typeDefs = gql`
+module.exports = gql`
   type Post {
     id: ID!
     body: String!
@@ -8,7 +8,7 @@ const typeDefs = gql`
     username: String!
   }
   type User {
-    id: ID!
+    _id: ID!
     email: String!
     token: String!
     username: String!
@@ -27,5 +27,3 @@ const typeDefs = gql`
     register(registerInput: RegisterInput): User!
   }
 `;
-
-module.exports = typeDefs;
