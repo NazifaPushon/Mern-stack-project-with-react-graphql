@@ -1,0 +1,12 @@
+{
+  "name": "mern-stack-project-with-grapql",
+  "version": "1.0.0",
+  "description": "A mern stack project with react and graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nazifa Mashiat Pushon",
+  "license": "ISC"
+}
