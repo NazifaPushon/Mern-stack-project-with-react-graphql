@@ -4,6 +4,7 @@
   "description": "A mern stack project with react and graphql",
   "main": "index.js",
   "scripts": {
+    "start-dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,8 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.6.6",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.0",
     "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.8"
   }
 }
