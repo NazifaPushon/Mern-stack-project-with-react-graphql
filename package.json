@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "Nazifa Mashiat Pushon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.6",
+    "dotenv": "^16.0.0",
+    "graphql": "^16.3.0",
+    "mongoose": "^6.2.8"
+  }
 }
