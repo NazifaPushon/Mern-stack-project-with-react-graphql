@@ -21,7 +21,7 @@ module.exports = gql`
     username:String!
   }
   type User {
-    id: ID!
+    _id: ID!
     email: String!
     token: String!
     username: String!
@@ -43,7 +43,7 @@ module.exports = gql`
     createPost(body: String!): Post!
     deletePost(postId: ID!): String
     createComment(postId:ID!,body:String):Post!
-    createComment(postId:ID!,commentId:ID!):Post!
+    deleteComment(postId:ID!,commentId:ID!):Post!
     likePost(postId:ID):Post!
   }
 `;
