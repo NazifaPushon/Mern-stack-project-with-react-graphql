@@ -4,6 +4,7 @@
   "description": "A mern stack project with react and graphql",
   "main": "index.js",
   "scripts": {
+    "serve": "node index.js",
     "start-dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,9 @@
   "author": "Nazifa Mashiat Pushon",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.3",
     "apollo-server": "^3.6.6",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.0",
