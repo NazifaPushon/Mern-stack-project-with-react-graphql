@@ -1,10 +1,12 @@
+import { Container } from '@mui/material';
 import React from 'react';
+import MenuBar from '../components/MenuBar';
 
 const Home = () => {
     return (
-        <div>
-            this is home components
-        </div>
+        <Container>
+           <MenuBar/>
+        </Container>
     );
 };
 
